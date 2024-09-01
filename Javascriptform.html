@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="validation.js"></script>
+    <title>Registeration</title>
+    <style>
+        body{
+            background-image: url(Untitled-2.jpg);
+            background-size: cover;
+            color: aliceblue;
+        }       
+    </style>
+</head>
+<body>
+    <center>
+    <h1>Placement Training</h1>
+    <h3>Traning | Tech News | Freshers Guide</h3>
+    <p>Empowering young developers to level up their skills through training in software development technologies🧑‍💻</p>
+    <hr>
+    <h2>Login Form</h2>
+    <form onsubmit="return val()">
+        <table>
+            <tr>
+                <td>Name:</td> <td><input type="text" name="name" id="name" ></td>
+            </tr>
+            <tr>
+                <td>Age:</td> <td><input type="number" id="age"></td>
+            </tr>
+            <tr>
+                <td id="gender">Gender:</td> 
+                <td>
+                    <input type="radio" name="gender" >Male
+                <input type="radio" name="gender" >Female</td>
+
+            </tr>
+            <tr>
+                <td>Email:</td> <td><input type="email" id="email"></td>
+            </tr>
+            <tr>
+                <td>Select a Course:</td>
+            <td> 
+                <select id="course">
+                    <option>None</option>
+                    <option>Full stack Development</option>
+                    <option>Java programming</option>
+                    <option >python programming</option>
+                </select>
+            </td>
+            </tr><td>Password:</td>
+                <td><input type="password" id="passw"></td>
+            <tr>
+            <tr><td>Confirm password:</td>
+                <td><input type="password" id="confirmpass"></td>
+            </tr>
+            <td><input type="submit" ></td>
+            <td><input type="reset" ></td>
+            </tr>
+                
+        </table>
+    </form>
+</body>
+</html>
